@@ -5,3 +5,14 @@ output:
 working_dir: .
 language: EN
 strict: true
+sast:
+  include:
+    - .
+  exclude:
+    - glob(**/node_modules/**)
+    - glob(**/test/**)
+sca:
+  include:
+    - .
+  exclude:
+    - glob(**/test/**)
