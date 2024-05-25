@@ -1,6 +1,6 @@
 namespace: wackopicko
 working_dir: .
-language: EN
+language: ES
 strict: true
 sast:
   include:
